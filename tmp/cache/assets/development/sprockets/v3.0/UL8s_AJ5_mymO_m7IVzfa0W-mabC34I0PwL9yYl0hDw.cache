@@ -1,0 +1,7 @@
+I"X(function() {
+  var tagic;
+
+  tagic = angular.module('tagic', []);
+
+}).call(this);
+:ET
