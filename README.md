@@ -3,9 +3,9 @@ A starter Ruby on Rails server, fully configured with Angular JS. This can be us
 
 Download/clone the entire package, then simply do:
 
-`**rails s**`
+**`rails s`**
 
 It will start a rubyonrails server at port 3000. 
 
 Load and check:
-`**localhost:3000**`
+**`localhost:3000`**
