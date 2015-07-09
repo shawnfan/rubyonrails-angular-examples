@@ -26384,3 +26384,42 @@ Started GET "/assets/templates/index-ae7d1ec7b4b0a4f5578d64c5442f06d1.js?body=1"
 
 
 Started GET "/assets/application-dad4ea063ba5f69f17c0702a9f7bb85c.js?body=1" for ::1 at 2015-07-08 00:21:22 -0400
+
+
+Started GET "/" for ::1 at 2015-07-08 23:33:06 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1742ms (Views: 1741.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-9c79371ca64828ea10d61982aa59abd3.css?body=1" for ::1 at 2015-07-08 23:33:08 -0400
+
+
+Started GET "/assets/application-7e469772e0912373440dcb23b00020cc.css?body=1" for ::1 at 2015-07-08 23:33:08 -0400
+
+
+Started GET "/assets/jquery-e1e4b6fb57744a4b08fc72fcc43a0228.js?body=1" for ::1 at 2015-07-08 23:33:08 -0400
+
+
+Started GET "/assets/jquery_ujs-1c7ced0751c9dfd0d0962d757e49342f.js?body=1" for ::1 at 2015-07-08 23:33:08 -0400
+
+
+Started GET "/assets/angular/angular-d5b551f8e5ed3e75019124cb09db8c0a.js?body=1" for ::1 at 2015-07-08 23:33:08 -0400
+
+
+Started GET "/assets/angular-route/angular-route-35adda8ae30d9c48982c5c79ac516980.js?body=1" for ::1 at 2015-07-08 23:33:08 -0400
+
+
+Started GET "/assets/angular-rails-templates-7658e416ba00cdf333c43d80a9677542.js?body=1" for ::1 at 2015-07-08 23:33:08 -0400
+
+
+Started GET "/assets/app-0f0ad22b2c9abdaa9a890e307a21150d.js?body=1" for ::1 at 2015-07-08 23:33:08 -0400
+
+
+Started GET "/assets/home-ee24fca66ac509c8b0b0dcad4d4df762.js?body=1" for ::1 at 2015-07-08 23:33:08 -0400
+
+
+Started GET "/assets/templates/index-e545bcf5350875f65a4a19200ec62b61.js?body=1" for ::1 at 2015-07-08 23:33:08 -0400
+
+
+Started GET "/assets/application-ca667ce70bebd4242ccfb7e8d961aa41.js?body=1" for ::1 at 2015-07-08 23:33:08 -0400
