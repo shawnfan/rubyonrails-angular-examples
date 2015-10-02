@@ -1,0 +1,49 @@
+<html>
+   <head>
+      <title>LOGIN MAN</title>
+      <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="../stylesheet/application.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-messages.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script src="../controller/mainCtrl.js"></script>
+   </head>
+   <body ng-app="challenge">
+      <div ng-controller="MainCtrl">
+         <div class="register-body">
+            <form class="register-form" name="registerForm" ng-submit="register()" novalidate>
+               <div class="register-wrap">
+                  <div class="input-group">
+                     <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                     <input type="email" id="email" name="email" class="form-control" placeholder="Email" ng-model="email" required/>
+                  </div>
+                  <div class="input-group">
+                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                     <input type="text" name="username" class="form-control" placeholder="Username" ng-model="username" required/>
+                  </div>
+                  <div class="input-group">
+                     <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                     <input type="password" name="password" class="form-control" placeholder="Password" ng-model="password" ng-minlength="8" required/>
+                  </div>
+                  <button class="btn btn-nestInn btn-info btn-lg btn-block" type="submit">Submit</button>
+               </div>
+            </form>
+            <div class="row text-center" id="error-display">
+                  <div class="col-md-2 col-md-offset-5 col-sm-12">
+                     <div ng-messages="registerForm.email.$error" ng-if="registerForm.email.$touched || submitAttempt">
+                        <div ng-message="required" class="alert alert-danger">Please enter a email.</div>
+                        <div ng-message="email" class="alert alert-danger">Please enter a valid email.</div>
+                     </div>
+                     <div ng-messages="registerForm.username.$error" ng-if="registerForm.username.$dirty || submitAttempt">
+                        <div ng-message="required" class="alert alert-danger">Please set a username.</div>
+                     </div>
+                     <div ng-messages="registerForm.password.$error" ng-if="registerForm.password.$dirty || submitAttempt">
+                        <div ng-message="required" class="alert alert-danger">Please set a password.</div>
+                        <div ng-message="minlength" class="alert alert-danger">Your password is too short. The minimum requirement is 8-digit password.</div>
+                     </div>
+                  </div>
+               </div>
+         </div>
+      </div>
+   </body>
+</html>
