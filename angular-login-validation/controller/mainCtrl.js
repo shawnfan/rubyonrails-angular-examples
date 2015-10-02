@@ -12,6 +12,8 @@ angular.module('challenge',['ngMessages'])
 		if ($scope.formValidate) {
 			$scope.submitAttempt = false;
 			console.log("Email: " + $scope.email + "\nUsername: " + $scope.username + "\nPassword: " + $scope.password);
+			alert("Thanks for registering!/nEmail: " + $scope.email + "\nUsername: " + $scope.username + "\nPassword: " + $scope.password + "\nWill reload the page as you click ok.");
+			location.reload();
 		} else {
 			alert("Please enter correct information for registeration! Thanks");
 		}
