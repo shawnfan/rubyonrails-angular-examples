@@ -1,0 +1,22 @@
+{
+  "name": "rails-test-app",
+  "homepage": "https://github.com/shawnfan/tripdip",
+  "authors": [
+    "shawnfan <zhangfan.shawn@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-ui-router": "~0.2.15"
+  }
+}

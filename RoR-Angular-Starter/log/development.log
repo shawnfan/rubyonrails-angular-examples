@@ -1,0 +1,271 @@
+
+
+Started GET "/" for ::1 at 2015-11-28 11:40:52 -0500
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (841.2ms)
+Completed 200 OK in 864ms (Views: 863.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for ::1 at 2015-11-28 11:40:53 -0500
+
+
+Started GET "/assets/angular/angular.self-d7c642a2239d433e219a2df47d65f3290d6ec49b679e42a3c8e8099a4a86d8f0.js?body=1" for ::1 at 2015-11-28 11:40:53 -0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-e6764caa085b2bbaaf74c1afbb77982d52f0e95f15b5e06c8606fa762d42f75c.js?body=1" for ::1 at 2015-11-28 11:40:53 -0500
+
+
+Started GET "/assets/app.self-6e9d334a7957ad6f3aaab24245d799c9cc9af239506874731c5500f3a1ed4966.js?body=1" for ::1 at 2015-11-28 11:40:53 -0500
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2015-11-28 11:40:53 -0500
+
+
+Started GET "/" for ::1 at 2015-11-28 11:42:46 -0500
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (20.1ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'angular-rails-template' with type 'application/javascript'):
+    4: <head>
+    5:   <title>Rails Test App</title>
+    6:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    7:   <%= javascript_include_tag 'application' %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: 
+  app/assets/javascripts/application.js:3
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3817237797010151925_70144014949540'
+  app/controllers/application_controller.rb:4:in `angular'
+
+
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.1ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (36.0ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (81.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-28 11:45:19 -0500
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'angular-rails-template' with type 'application/javascript'):
+    4: <head>
+    5:   <title>Rails Test App</title>
+    6:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    7:   <%= javascript_include_tag 'application' %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: 
+  app/assets/javascripts/application.js:2
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3817237797010151925_70144014949540'
+  app/controllers/application_controller.rb:4:in `angular'
+
+
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.0ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (28.5ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (63.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-28 11:45:21 -0500
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'angular-rails-template' with type 'application/javascript'):
+    4: <head>
+    5:   <title>Rails Test App</title>
+    6:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    7:   <%= javascript_include_tag 'application' %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: 
+  app/assets/javascripts/application.js:2
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3817237797010151925_70144014949540'
+  app/controllers/application_controller.rb:4:in `angular'
+
+
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.4ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (30.1ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (65.9ms)
+
+
+Started GET "/" for ::1 at 2015-11-28 11:48:17 -0500
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'angular-rails-template' with type 'application/javascript'):
+    4: <head>
+    5:   <title>Rails Test App</title>
+    6:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    7:   <%= javascript_include_tag 'application' %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: 
+  app/assets/javascripts/application.js:2
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3817237797010151925_70144014949540'
+  app/controllers/application_controller.rb:4:in `angular'
+
+
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.4ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.1ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (29.9ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (69.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-28 11:49:19 -0500
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'angular-rails-templates' with type 'application/javascript'):
+    4: <head>
+    5:   <title>Rails Test App</title>
+    6:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    7:   <%= javascript_include_tag 'application' %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: 
+  app/assets/javascripts/application.js:2
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3817237797010151925_70144059625180'
+  app/controllers/application_controller.rb:4:in `angular'
+
+
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.5ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (28.7ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/shawnfan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (64.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-28 11:50:18 -0500
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (193.2ms)
+Completed 200 OK in 220ms (Views: 219.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-759831b29d0aa42347a75522f707ac9f.css?body=1" for ::1 at 2015-11-28 11:50:18 -0500
+
+
+Started GET "/assets/angular/angular-01b1838a47c06e0502b1ee4fffed91f5.js?body=1" for ::1 at 2015-11-28 11:50:18 -0500
+
+
+Started GET "/assets/angular-rails-templates-bc44c2af528e3b615296f30e6b15ff8f.js?body=1" for ::1 at 2015-11-28 11:50:18 -0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router-1e03f949487256380828794e5807bf6b.js?body=1" for ::1 at 2015-11-28 11:50:18 -0500
+
+
+Started GET "/assets/app-4b76a48b6ac3be478d77895544442eba.js?body=1" for ::1 at 2015-11-28 11:50:18 -0500
+
+
+Started GET "/assets/home/_home-99b83f7c7814a46a989fd3148b5563ed.js?body=1" for ::1 at 2015-11-28 11:50:18 -0500
+
+
+Started GET "/assets/home/homeCtrl-c36f6350ab2855c1cc79145c1ed612be.js?body=1" for ::1 at 2015-11-28 11:50:19 -0500
+
+
+Started GET "/assets/application-c4d362b8f92356173a0636c264aadd87.js?body=1" for ::1 at 2015-11-28 11:50:19 -0500
+
+
+Started GET "/" for ::1 at 2015-11-28 11:55:50 -0500
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (218.4ms)
+Completed 200 OK in 244ms (Views: 243.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-f46df63e1865c899d02044169e61ab00.css?body=1" for ::1 at 2015-11-28 11:55:50 -0500
+
+
+Started GET "/assets/angular/angular-881f419c6c0333a6eeb9f2ed76301756.js?body=1" for ::1 at 2015-11-28 11:55:50 -0500
+
+
+Started GET "/assets/angular-rails-templates-4292e8ca12bc90931f510ccd6d9fb99f.js?body=1" for ::1 at 2015-11-28 11:55:51 -0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router-28fcfbdad67d7c0069c8a28f66e6854e.js?body=1" for ::1 at 2015-11-28 11:55:51 -0500
+
+
+Started GET "/assets/app-75e2b6b05e280f88fc0c01ef03bb8e49.js?body=1" for ::1 at 2015-11-28 11:55:51 -0500
+
+
+Started GET "/assets/home/_home-0a3db0b7e1b9762ca8fc06f8ba167e02.js?body=1" for ::1 at 2015-11-28 11:55:51 -0500
+
+
+Started GET "/assets/home/homeCtrl-b2f638fa344357126c24baeac0cefbb6.js?body=1" for ::1 at 2015-11-28 11:55:51 -0500
+
+
+Started GET "/assets/application-1b4db896e965a028f9adaa6955edcab6.js?body=1" for ::1 at 2015-11-28 11:55:51 -0500
+
+
+Started GET "/" for ::1 at 2015-11-28 11:55:59 -0500
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 78ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/angular/angular-881f419c6c0333a6eeb9f2ed76301756.js?body=1" for ::1 at 2015-11-28 11:55:59 -0500
+
+
+Started GET "/assets/application-f46df63e1865c899d02044169e61ab00.css?body=1" for ::1 at 2015-11-28 11:55:59 -0500
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router-28fcfbdad67d7c0069c8a28f66e6854e.js?body=1" for ::1 at 2015-11-28 11:55:59 -0500
+
+
+Started GET "/assets/angular-rails-templates-4292e8ca12bc90931f510ccd6d9fb99f.js?body=1" for ::1 at 2015-11-28 11:55:59 -0500
+
+
+Started GET "/assets/app-75e2b6b05e280f88fc0c01ef03bb8e49.js?body=1" for ::1 at 2015-11-28 11:55:59 -0500
+
+
+Started GET "/assets/home/_home-0a3db0b7e1b9762ca8fc06f8ba167e02.js?body=1" for ::1 at 2015-11-28 11:55:59 -0500
+
+
+Started GET "/assets/home/homeCtrl-b2f638fa344357126c24baeac0cefbb6.js?body=1" for ::1 at 2015-11-28 11:55:59 -0500
+
+
+Started GET "/assets/application-1b4db896e965a028f9adaa6955edcab6.js?body=1" for ::1 at 2015-11-28 11:55:59 -0500
